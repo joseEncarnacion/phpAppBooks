@@ -1,0 +1,44 @@
+<?php
+        echo "hello";
+        echo "<br>";echo "<br>";
+        echo "arrary:";
+        echo "<br>"; 
+        echo "<br>";
+
+        $matriz = array('h', 'o', 'l', 'a');
+
+        foreach($matriz as $letra){
+            echo $letra . ' - ' ;
+        }
+
+
+        //como es la programacion orientada a obejeto en PHP 
+        class nombreClase {
+           var $atributo1;
+
+            function nombreClase(){
+                //constructor de la clase 
+                $this -> atributo1 ="atributo";
+            }
+
+            function metodo(){
+                //metorod de la clase 
+            }
+        }
+
+        
+        $objeto1 = new nombreClase();
+
+
+        // como aplicar herencia en PHP
+
+        class nombreClase2 extends nombreClase{
+
+        }
+
+
+        //Para hacer referencia a clases o atributos estaticos en php usamos 
+
+        //   Self::   y ponemos el nombre clase o metodo 
+    ?>
+    <h2>hola</h2>
